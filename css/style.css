@@ -1,0 +1,365 @@
+/*
+    PSD Designer: www.symu.co
+    Code By: Ahmed Samir
+*/
+
+/* Start Globale Style */
+
+body {
+    background-image: url('../img/pexels-photo.jpg');
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+    height: 9000px;
+}
+
+/* Globale A-Link */
+
+a,
+a:hover { color: #fff }
+
+.head-phone h2,
+.features h2,
+.head-header > h1 {
+    color: #fff;
+    font-size: 2em
+}
+.head-phone h2 > span,
+.features h2 > span,
+.head-header > h1 span {
+    color: #2a5da3;
+    font-weight: bold;
+    font-size: 1.5em
+}
+
+.overlay {
+    top: 0;
+    left: 0;
+    background-color: rgba(10, 35, 69, 0.92);
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.back-app .row,
+.head-phone .row { margin-right: 0 }
+
+/* Globale Button */
+
+.button {
+    width: 160px;
+    height: 40px;
+    border: 1px solid #2a5da3;
+    background: none;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: all .2s ease-in-out;
+       -moz-transition: all .2s ease-in-out;
+         -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out
+}
+
+.button:hover { background-color: #2a5da3 }
+
+@media (max-width: 720px) {
+    .button {
+        width: 130px;
+        height: 35px;
+        font-size: 13px
+    }
+}
+
+.h-1 {
+    color: #fff;
+    font-size: 1em
+}
+
+.h-2 {
+    color: #fff;
+    font-size: 18px
+}
+
+.para {
+    font-size: 14px;
+    color: #999;
+    line-height: 2;
+}
+
+.para-1 {
+    font-size: 14px;
+    color: #999;
+    line-height: 2;
+    width: 80%;
+    margin: auto
+}
+
+/* End Globale Style */
+
+/* Start NavBar */
+
+.navbar {
+    padding: 1.5rem 1rem;
+    background-color: rgba(10, 35, 69, 0.92)
+}
+
+.navbar-brand img { width: 50px }
+
+.navbar-brand,
+.navbar-brand:hover { color: #fff }
+
+.navbar-light .navbar-toggler { border-color:  #2a5da3 }
+
+.navbar-toggler {
+    padding: 3px;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: none !important;
+}
+
+.navbar-toggler > span {
+    height: 2px;
+    width: 25px;
+    display: block;
+    margin: 5px;
+    background-color: #2a5da3;
+    border-radius: 20px
+}
+
+.collapse .nav-link { color: #fff }
+
+/* End NavBar */
+
+
+/* Start Header */
+.head-header {
+    padding-top: 100px;
+    padding-bottom: 100px
+}
+
+.head-header > p {
+    color: #2a5da3;
+    padding-bottom: 30px
+}
+
+@media (max-width: 720px) {
+    .head-header > h1 { font-size: 1.5em }
+    .head-header > p {
+        font-size: .7em
+    }
+}
+
+/* End Header */
+
+/* Start App Images */
+
+.back-app .applcation {
+    padding-top: 50px;
+    padding-bottom: 100px
+}
+
+.back-app .img-one,
+.back-app .img-two,
+.back-app .img-three { margin: auto }
+
+.back-app img { box-shadow: 0 0 20px 5px #000 }
+
+.back-app .img-two img { width: 100% }
+
+.back-app .img-one img,
+.back-app .img-three img { width: 90% }
+
+@media (max-width: 576px) {
+    .back-app .img-one,
+    .back-app .img-two,
+    .back-app .img-three { text-align: center !important}
+    .back-app .img-one,
+    .back-app .img-two { margin-bottom: 20px }
+    .back-app img{ width: 60% !important }
+}
+
+/* End App Images */
+
+
+/* Start HeadPhone */
+
+.head-phone .phone { padding-bottom: 50px }
+
+.head-phone img {
+    width: 100%;
+    margin: auto 
+}
+
+.head-phone-info { margin: auto }
+
+.head-phone-info h2 {
+    margin-bottom: 30px;
+    margin-top: 0
+}
+
+.head-phone button { margin-top: 20px }
+
+
+/* End HeadPhone */
+
+
+/* Start  Features */
+
+.features .feat { margin-top: 30px }
+
+.features img { width: 60% }
+
+.features h2 { margin-bottom: 70px }
+
+.features i {
+    color: #ff3334;
+    margin-bottom: 20px
+}
+
+@media (min-width: 991px) {
+    .features .feat-phone img { width: 100% !important }
+}
+
+/* End Features */
+
+
+/* Start Testimonial 
+  
+    .slider {
+    margin: 0 auto;
+    max-width: 940px;
+    }
+    p {
+    position: absolute;
+    left: 50%;
+    margin-left: -40px;
+    top: 50%;
+    margin-top: -20px;
+    font-size: 20px
+    }
+    .slide_viewer {
+    height: 340px;
+    overflow: hidden;
+    position: relative;
+    }
+
+    .slide_group {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    }
+
+    .slide {
+    display: none;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    }
+
+    .slide:first-child {
+    display: block;
+    }
+
+    .slide {
+        background: rgba(10, 35, 69, 0.92);
+    }
+
+    .slide_buttons {
+        left: 0;
+        position: absolute;
+        right: 0;
+        text-align: center;
+    }
+
+    a.slide_btn {
+        color: #474544;
+        font-size: 42px;
+        margin: 0 0.175em;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -ms-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+    }
+
+    .slide_btn.active, .slide_btn:hover {
+        color: #428CC6;
+        cursor: pointer;
+    }
+
+    .directional_nav {
+        height: 340px;
+        margin: 0 auto;
+        max-width: 940px;
+        position: relative;
+        top: -340px;
+    }
+
+    .previous_btn {
+        bottom: 0;
+        left: 100px;
+        margin: auto;
+        position: absolute;
+        top: 0;
+    }
+
+    .next_btn {
+        bottom: 0;
+        margin: auto;
+        position: absolute;
+        right: 100px;
+        top: 0;
+    }
+
+    .previous_btn, 
+    .next_btn {
+        cursor: pointer;
+        height: 65px;
+        opacity: 0.5;
+        -webkit-transition: opacity 0.4s ease-in-out;
+        -moz-transition: opacity 0.4s ease-in-out;
+        -ms-transition: opacity 0.4s ease-in-out;
+        -o-transition: opacity 0.4s ease-in-out;
+        transition: opacity 0.4s ease-in-out;
+        width: 65px;
+    }
+
+    .previous_btn:hover, 
+    .next_btn:hover { opacity: 1 }
+
+    @media only screen and (max-width: 767px) {
+        .previous_btn { left: 50px }
+        .next_btn { right: 50px }
+    }
+ End Testimonial */
+
+
+/* Start Footer */
+
+.footer {
+
+}
+
+/* End Footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**?
